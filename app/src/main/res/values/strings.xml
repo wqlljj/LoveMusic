@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name1">爱音乐</string>
+    <array name="example_name">
+        <item name="musicplayer" type="string">musicplayer</item>
+        <item name="three_d" type="string">three_d</item>
+        <item name="channel_groups" type="string">channel_groups</item>
+        <item name="convolution_reverb" type="string">convolution_reverb</item>
+        <item name="dsp_custom" type="string">dsp_custom</item>
+        <item name="dsp_effect_per_speaker" type="string">dsp_effect_per_speaker</item>
+        <item name="dsp_inspector" type="string">dsp_inspector</item>
+        <item name="effects" type="string">effects</item>
+        <item name="gapless_playback" type="string">gapless_playback</item>
+        <item name="generate_tone" type="string">generate_tone</item>
+        <item name="granular_synth" type="string">granular_synth</item>
+        <item name="load_from_memory" type="string">load_from_memory</item>
+        <item name="multiple_speaker" type="string">multiple_speaker</item>
+        <item name="multiple_system" type="string">multiple_system</item>
+        <item name="net_stream" type="string">net_stream</item>
+        <item name="play_sound" type="string">play_sound</item>
+        <item name="play_stream" type="string">play_stream</item>
+        <item name="record" type="string">record</item>
+        <item name="record_enumeration" type="string">record_enumeration</item>
+        <item name="user_created_sound" type="string">user_created_sound</item>
+    </array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_fmod">FmodActivity</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="example_ids">
+        <item type="id" name="musicplayer"/>
+        <item type="id" name="three_d"/>
+        <item type="id" name="channel_groups"/>
+        <item type="id" name="convolution_reverb"/>
+        <item type="id" name="dsp_custom"/>
+        <item type="id" name="dsp_effect_per_speaker"/>
+        <item type="id" name="dsp_inspector"/>
+        <item type="id" name="effects"/>
+        <item type="id" name="gapless_playback"/>
+        <item type="id" name="generate_tone"/>
+        <item type="id" name="granular_synth"/>
+        <item type="id" name="load_from_memory"/>
+        <item type="id" name="multiple_speaker"/>
+        <item type="id" name="multiple_system"/>
+        <item type="id" name="net_stream"/>
+        <item type="id" name="play_sound"/>
+        <item type="id" name="play_stream"/>
+        <item type="id" name="record"/>
+        <item type="id" name="record_enumeration"/>
+        <item type="id" name="user_created_sound"/>
+    </array>
+    <item name="a" type="id">0</item>
+    <item name="b" type="id">1</item>
+    <item name="c" type="id">2</item>
+    <item name="d" type="id">3</item>
+    <item name="left" type="id">4</item>
+    <item name="right" type="id">5</item>
+    <item name="up" type="id">6</item>
+    <item name="down" type="id">7</item>
+    <item name="e" type="id">8</item>
+
+</resources>

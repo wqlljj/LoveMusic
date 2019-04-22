@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/icon_repeat_single" android:minLevel="2" android:maxLevel="3"/>
+    <item android:drawable="@drawable/icon_repeat" android:maxLevel="1" android:minLevel="0"/>
+</level-list>
