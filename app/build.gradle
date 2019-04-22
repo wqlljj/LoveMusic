@@ -61,6 +61,7 @@ dependencies {
         compile 'com.google.code.gson:gson:2.8.5'
         compile 'org.greenrobot:greendao:3.1.0'
         compile 'org.greenrobot:greendao-generator:3.0.0'
+    compile 'me.jessyan:autosize:0.9.5'
 //    compile files('libs/greendao-3.1.0.jar')
 //    compile files('libs/gson-2.8.5.jar')
 //    compile files('libs/greendao-generator-3.0.0.jar')
