@@ -9,20 +9,20 @@ greendao {
 
 android {
     compileSdkVersion 28
-    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.example.cloud.fmoddemo"
         minSdkVersion 17
-        targetSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
-                arguments '-DANDROID_STL=gnustl_static'
+                arguments '-DANDROID_STL=c++_static'
                 cppFlags ""
             }
         }
+//        arguments '-DANDROID_STL=gnustl_static'
         ndk {
             abiFilters "arm64-v8a", "armeabi-v7a", "x86"
         }
@@ -50,18 +50,18 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile files('libs/fmod.jar')
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.github.hotchemi:permissionsdispatcher:3.1.0'
-    compile 'com.android.support:support-v4:25.+'
-    testCompile 'junit:junit:4.12'
+    implementation files('libs/fmod.jar')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.github.hotchemi:permissionsdispatcher:3.1.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    testImplementation 'junit:junit:4.12'
     annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:3.1.0'
-    compile 'com.leon:lfilepickerlibrary:1.8.0'
-        compile 'com.google.code.gson:gson:2.8.5'
-        compile 'org.greenrobot:greendao:3.1.0'
-        compile 'org.greenrobot:greendao-generator:3.0.0'
-    compile 'me.jessyan:autosize:0.9.5'
+    implementation 'com.leon:lfilepickerlibrary:1.8.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'org.greenrobot:greendao:3.1.0'
+    implementation 'org.greenrobot:greendao-generator:3.0.0'
+    implementation 'me.jessyan:autosize:0.9.5'
 //    compile files('libs/greendao-3.1.0.jar')
 //    compile files('libs/gson-2.8.5.jar')
 //    compile files('libs/greendao-generator-3.0.0.jar')
